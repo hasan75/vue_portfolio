@@ -1,26 +1,41 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavBar/>
+  <FirstIntro/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
+import FirstIntro from './components/FirstIntro.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    NavBar,
+    FirstIntro,
+}
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  /* font-family: 'Dancing Script', cursive;
+  font-family: 'Permanent Marker', cursive; */
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Satisfy', cursive; */
+  background-color: #212121;
+  min-height: 100vh;
+  color: white;
+}
+.mainBackground{
+  color: #212121;
+}
+.textBackground{
+  color:#212121
+}
+.onContainBackground{
+  color:#8B432D
+}
+.projectBackGround{
+  color: #FF764D
 }
 </style>
