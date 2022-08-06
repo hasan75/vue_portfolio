@@ -35,25 +35,25 @@
                         
                         <div class="text-lrc-content">
                             <h4>Web Developer</h4>
-                    <h1>Hasan Ahmed</h1>
-                    <p>
-                        Greetings! Welcome to a passionated Web Developer's portfolio. I am Hasan Ahmed. A 23 years boy who has keen interest in programming and web developing. I believe in learning and hard work. Okay! That's a lot of talking! Let's Explore my portfolio..
-                    </p>
+                            <h1>Hasan Ahmed</h1>
+                            <p>
+                                 Greetings! Welcome to a passionated Web Developer's portfolio. I am Hasan Ahmed. A 23 years boy who has keen interest in programming and web developing. I believe in learning and hard work. Okay! That's a lot of talking! Let's Explore my portfolio..
+                            </p>
                         </div>
 
-                    <div class="buttonContainer">
-                        <a href="/media/HasanAhmedResume(modern).pdf" download="Hasan_Ahmed_resume" target="_blank" rel="noreferrer">
-                            <button class="custom-button" tabindex="0" type="button">
-                                <span class="text-white">Download Resume</span>
-                            </button>
-                        </a>
+                        <div class="buttonContainer">
+                            <a href="/media/HasanAhmedResume(modern).pdf" download="Hasan_Ahmed_resume" target="_blank" rel="noreferrer">
+                                <button class="custom-button" tabindex="0" type="button">
+                                    <span class="text-white">Download Resume</span>
+                                </button>
+                            </a>
                         
-                        <a spy="true" duration="2000" href="/#contacts">
-                            <button class="custom-button" tabindex="0" type="button">
-                                <span class="text-white">Contact</span>
-                            </button>
-                        </a>
-                    </div>
+                            <a spy="true" duration="2000" href="/#contacts">
+                                <button class="custom-button" tabindex="0" type="button">
+                                    <span class="text-white">Contact</span>
+                                </button>
+                            </a>
+                        </div>
 
                     </div>
             </div>
@@ -103,29 +103,30 @@
     }
     .buttonContainer{
         margin-top: 2rem;
-        width: 350px;
+        /* width: 350px; */
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .custom-button{
-  border: 2px solid #FF764D;
-  color: white;
-  border-radius: 20px;
-  margin: 0px 10px;
-  padding: 5px 20px !important;
-  background-color: black;
-}
-.custom-button:hover{
-  border: 2px solid #FF764D;
-  color: white;
-  border-radius: 20px;
-  margin: 0px 10px;
-  padding: 5px 20px !important;
-  background-color: #FF764D;
-}
+        border: 2px solid #FF764D;
+        color: white;
+        border-radius: 20px;
+        margin: 0px 10px;
+        padding: 5px 20px !important;
+        background-color: black;
+    }
+    .custom-button:hover{
+        border: 2px solid #FF764D;
+        color: white;
+        border-radius: 20px;
+        margin: 0px 10px;
+        padding: 5px 20px !important;
+        background-color: #FF764D;
+    }
 
 @media only screen and (max-width: 600px){
+
     
     .left-intro{
         min-height: 40vh;
@@ -137,22 +138,23 @@
         flex-direction: row-reverse !important;
     }
     .left-info-content, .text-content{
-        min-height: 40vh;
+        min-height: fit-content;
     }
     .landing--img{
-        width: 300px;
+        width: 250px;
         border-radius: 50%;
         box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.348);
         margin-top: 2rem;
-        margin-right: 50px;
+        margin-right: 90px;
     }
     .social-icons{
-        margin-top: 50px !important;
+        margin-top: 20px !important;
         display: flex;
         flex-direction: column;
     }
 
     .right-intro{
+        padding-top: 2rem;
         background-color: rgb(245, 101, 57) !important;
         width: 100%;
         margin-right: 40px;
@@ -164,6 +166,54 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .text-lrc-content{
+        width: 100%;
+        margin-right: 0 !important;
+        font-style: normal;
+    }
+    .buttonContainer{
+        margin-top: 2rem;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+
+    .custom-button{
+        border: 2px solid black;
+        color: black;
+        border-radius: 20px;
+        margin: 0px 10px;
+        padding: 5px 20px !important;
+        background-color: #FF764D;
+    }
+    .custom-button:hover{
+        border: 2px solid black;
+        color: white;
+        border-radius: 20px;
+        margin: 0px 10px;
+        padding: 5px 20px !important;
+        background-color: #FF764D;
+    }
+}
+
+
+@media screen and (min-width:601px) and (max-width: 768px){
+    .right-intro{
+        width: 90%;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 40px;
+
     }
     .text-lrc-content{
         width: 100%;

@@ -1,17 +1,23 @@
 <template>
   <NavBar/>
   <FirstIntro/>
+  <AboutMe/>
+  <AcademicInfo/>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import FirstIntro from './components/FirstIntro.vue'
+import AboutMe from './components/AboutMe.vue'
+import AcademicInfo from './components/AcademicInfo.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
     FirstIntro,
+    AboutMe,
+    AcademicInfo,
 }
 }
 </script>
