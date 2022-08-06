@@ -3,6 +3,8 @@
   <FirstIntro/>
   <AboutMe/>
   <AcademicInfo/>
+  <MySkills/>
+  <WorkExperience/>
 </template>
 
 <script>
@@ -10,6 +12,8 @@ import NavBar from './components/NavBar.vue'
 import FirstIntro from './components/FirstIntro.vue'
 import AboutMe from './components/AboutMe.vue'
 import AcademicInfo from './components/AcademicInfo.vue'
+import MySkills from './components/MySkills.vue'
+import WorkExperience from './components/WorkExperience.vue'
 
 export default {
   name: 'App',
@@ -18,6 +22,9 @@ export default {
     FirstIntro,
     AboutMe,
     AcademicInfo,
+    MySkills,
+    WorkExperience,
+
 }
 }
 </script>
