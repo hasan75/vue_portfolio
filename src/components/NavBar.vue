@@ -1,23 +1,23 @@
 <template>
   <nav class="navbar navbar-expand-lg navBarColor">
   <div class="container">
-    <a class="navbar-brand navbarTextColor navbarTextFirst" href="#">Hasan Ahmed</a>
+    <a class="navbar-brand navbarTextColor navbarTextFirst" href="#intro">Hasan Ahmed</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link navigations" aria-current="page" href="#">About</a>
+          <a class="nav-link navigations" aria-current="page" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navigations" href="#">Skills</a>
+          <a class="nav-link navigations" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navigations" href="#">Services</a>
+          <a class="nav-link navigations" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navigations" href="#">Project</a>
+          <a class="nav-link navigations" href="#contacts">Contanct</a>
         </li>
       </ul>
     </div>

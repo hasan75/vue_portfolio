@@ -1,5 +1,5 @@
 <template >
-    <div class="container-md">
+    <div class="container-md" id="intro">
         <div class="row ">
             <div class="col-md-6 left-intro">
                 <div class=" left-info-content d-flex flex-column justify-content-between">

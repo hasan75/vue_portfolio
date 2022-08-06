@@ -1,5 +1,5 @@
 <template>
-    <div class="container pb-4">
+    <div class="container pb-4" id="academic">
         <h1 class="eduText">Education</h1>
         <div class="row">
             <div class="col-12 col-md-6 education-img text-center d-none d-md-block">
@@ -66,6 +66,7 @@
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Permanent Marker', cursive; 
     margin: 40px 0px 30px 0px;
+     padding: 30px 0px;
 }
 .education-img > img {
     width: 350px;

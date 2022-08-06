@@ -1,5 +1,5 @@
 <template>
-    <div class="container pb-4">
+    <div class="container pb-4" id="experiences">
         <h1 class="experienceText">Experience</h1>
         <div class="row">
             <div class="col-12 col-md-6 experience-img text-center d-none d-md-block">
@@ -69,6 +69,7 @@
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Permanent Marker', cursive; 
     margin: 40px 0px 30px 0px;
+     padding: 30px 0px;
 }
 .experience-img > img {
     width: 350px;

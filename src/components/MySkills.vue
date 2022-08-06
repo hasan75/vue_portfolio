@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
+    <div class="container" id="skills">
         <h1 class="skillHeader">Skills</h1>
         <div class="row">
-            <div v-for="(skill, index) in skills" :key="index" class="col-4 col-sm-4 col-lg-2">
-                <div class="skillSet text-center">
-                    <img src={{skill.link}} alt="">
-                    <span class="d-block fw-bold skillText">
+            <div v-for="(skill) in skills" :key="skill.name" class="col-4 col-sm-4 col-lg-2">
+                <div class="skillSet text-center d-flex justify-content-center align-items-center flex-column">
+                    <img :src='skill.icon' alt="">
+                    <span class="d-block fw-bold skillText pt-2">
                         {{skill.name}}
                     </span>
                 </div>
@@ -20,7 +20,7 @@
         data(){
             return{
                 skills: [
-                    { link: 'https://hasan75portfolio.netlify.app/static/media/html.75bdf0b0.svg', name:'HTML5'  },
+                    { icon: 'https://hasan75portfolio.netlify.app/static/media/html.75bdf0b0.svg', name:'HTML5'  },
                     { icon: 'https://hasan75portfolio.netlify.app/static/media/css.afb434f6.svg', name:'CSS3'  },
                     { icon: 'https://hasan75portfolio.netlify.app/static/media/javascript.f84ec710.svg', name:'JavaScript'  },
                     { icon: 'https://hasan75portfolio.netlify.app/static/media/nodejs.3dc364b8.svg', name:'NodeJS'  },
@@ -48,15 +48,19 @@
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Permanent Marker', cursive; 
     margin: 30px 0px 20px 0px;
+    padding: 30px 0px;
 }
 .skillSet {
-    min-height: 6rem;
+    min-height: 8rem;
     margin: 10px 5px;
     padding: 10px 20px;
     border-radius: 10px;
     border: 1 px solid #FF764D;
     box-shadow: 3px 3px 2px #FF764D;
     box-shadow: #FF764D 0px 2px 5px -1px, #FF764D 0px 1px 3px -1px;
+}
+.skillSet > img{
+    width: 40px;
 }
 .skillText{
     font-size: 1.2rem;

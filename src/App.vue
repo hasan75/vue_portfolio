@@ -5,6 +5,8 @@
   <AcademicInfo/>
   <MySkills/>
   <WorkExperience/>
+  <MyProjects/>
+  <MyContact/>
 </template>
 
 <script>
@@ -14,6 +16,8 @@ import AboutMe from './components/AboutMe.vue'
 import AcademicInfo from './components/AcademicInfo.vue'
 import MySkills from './components/MySkills.vue'
 import WorkExperience from './components/WorkExperience.vue'
+import MyProjects from './components/MyProjects.vue'
+import MyContact from './components/MyContact.vue'
 
 export default {
   name: 'App',
@@ -24,6 +28,8 @@ export default {
     AcademicInfo,
     MySkills,
     WorkExperience,
+    MyProjects,
+    MyContact,
 
 }
 }

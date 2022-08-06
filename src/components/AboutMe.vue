@@ -1,6 +1,6 @@
 <template>
  <div class="container">
-        <div class="about">
+        <div class="about" id="about">
             <div class="line-styling">
                 <div class="style-circle" style="background-color: rgb(245, 101, 57);"></div>
                 <div class="style-circle" style="background-color: rgb(245, 101, 57);"></div>
@@ -73,6 +73,7 @@
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Permanent Marker', cursive; 
     margin-bottom: 1rem;
+     padding: 30px 0px;
 }
 p{
     font-size: 1.4rem;
